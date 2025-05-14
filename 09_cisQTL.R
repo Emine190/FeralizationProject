@@ -42,7 +42,7 @@ useModel <- modelLINEAR
 # NOTE: This is NOT the significance threshold after multiple testing correction.
 # Set pvOutputThreshold_trans = 0 to perform ONLY cis-analysis (faster).
 pvOutputThreshold_cis <- 1e-3  # Report cis-QTLs with p < 0.001
-pvOutputThreshold_trans = 0    # Report trans-QTLs with p < 0.001 
+pvOutputThreshold_trans = 0    # DOne in a different script
 
 # Distance threshold for defining cis-QTLs (in base pairs).
 # Markers within this distance upstream/downstream of a bin's start/end are considered cis.
